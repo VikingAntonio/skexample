@@ -1,0 +1,209 @@
+.cajai .rotimage {
+  width: 50%;
+  padding-top: 10px;
+}
+
+.cajai {
+  text-align: center;
+  background: url(/assets/img/bkred.svg?h=e2be54326a69f52b6885647c75327e92);
+  color: white;
+  margin-top: 0;
+}
+
+.caja {
+}
+
+.cajai p {
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background: rgba(128,0,0,0.69);
+}
+
+body.dark .cajai p {
+  background: rgba(0,0,0,0.2);
+}
+
+body.dark .cajai {
+  background: url(/assets/img/dt2.svg?h=0482e16e8561a7e0d3cbd296aa1035e8);
+  color: white;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top {
+  background: #FBBA00;
+}
+
+.tarjetas {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  background: #800000;
+  color: white;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.tarjetas h2 {
+  padding-bottom: 20px;
+}
+
+body.dark .tarjetas {
+  background: rgba(0,0,0,0.8);
+  color: #800000;
+}
+
+.tarjetas i {
+  font-size: 36px;
+  padding-top: 40px;
+}
+
+body {
+  background: url(/assets/img/bkbody.svg?h=e13d1afef30e3ff1937b5a51f7e7481a);
+}
+
+body.dark .navbar.navbar-light.navbar-expand-md.sticky-top {
+  background: #262626;
+}
+
+#navcol-1 a {
+  color: white;
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+}
+
+.jumbotron p {
+  background: rgba(0,0,0,0.3);
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top .bran {
+  width: 60px;
+  height: 60px;
+}
+
+.info {
+  color: white;
+  text-align: center;
+  background: rgba(112,4,4,0.85);
+  padding: 30px;
+}
+
+.info h2 {
+  padding-top: 30px;
+}
+
+body.dark .info {
+  background: rgba(0,0,0,0.8);
+}
+
+.whats {
+  color: white;
+  background: #700404;
+  border: white 2px solid;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+  padding-left: 50px;
+  cursor: pointer;
+  padding-right: 50px;
+}
+
+.bottar {
+  color: white;
+  background: #700404;
+  border: white 2px solid;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+  padding-left: 50px;
+  cursor: pointer;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+
+body.dark .bottar {
+  position: relative;
+  background: linear-gradient(-45deg, #D90416, #8C030E, #A60303, #590202, #260101);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+  color: white;
+  cursor: pointer;
+}
+
+.info p {
+  font-size: 22px;
+}
+
+.localesDentro .localdentro {
+  width: 100%;
+  padding: 20px;
+}
+
+.about {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: rgba(112,4,4,0.83);
+  font-size: 40px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+body.dark .about {
+  background: rgba(0,0,0,0.8);
+}
+
+@media (max-width: 700px) {
+  .about {
+    font-size: 30px;
+  }
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+body.dark .footer-basic {
+  background: rgba(0,0,0,0.8);
+}
+
+.cajai .efe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cajai .efe button {
+  opacity: 0;
+}
+
+.cajai .efe .rotimage:hover {
+  transform: translate(0, -30px);
+  transition: 1s;
+}
+
+.casas .casa {
+  width: 60%;
+}
+
+.casas {
+  text-align: center;
+}
+
